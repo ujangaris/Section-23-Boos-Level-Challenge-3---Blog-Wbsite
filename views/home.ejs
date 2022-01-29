@@ -2,10 +2,9 @@
 
 <h1>Home</h1>
 <p><%= startingContent %></p>
-<!-- <% for(let i = 0; i < posts; i++){%> <% console.log(posts[i].title) %> <% }%> -->
 
 <% posts.forEach(function(post){%>
 
 <h1><%= post.title %></h1>
-<p><%= post.content %></p>
+<p><%= post.content.substring(0,100)+ "..." %></p>
 <% })%> <%-include('./partials/footer.ejs') %>
