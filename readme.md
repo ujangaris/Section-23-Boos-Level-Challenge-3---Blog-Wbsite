@@ -22,5 +22,19 @@ pada browser: - http://localhost:3000/about - http://localhost:3000/contact - ht
                     - https://www.w3schools.com/tags/tag_textarea.asp
 
 
-    - http://localhost:3000/compose/post/Test
+    - http://localhost:3000/posts/Test
     input title : Test, Content: lorem.... liat pada terminal , jika berhasil akan ada output sesuai yang di input pada browser
+
+## Slug dengan loadsh , Single page
+
+    Documentation:
+                    - https://lodash.com/
+                    - https://lodash.com/docs/4.17.15#lowerCase
+
+    - http://localhost:3000/compose
+    input title : Another post, Content: lorem....
+
+    liat pada browser:
+    - http://localhost:3000/posts/another-post
+
+    maka akan ada single post
